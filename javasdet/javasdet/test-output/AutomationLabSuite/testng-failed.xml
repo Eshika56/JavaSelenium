@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationLabSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LabTests(failed)">
+    <classes>
+      <class name="com.wiprojuly.javasdet.Lab4_ShoppingCart">
+        <methods>
+          <include name="shoppingFlow"/>
+        </methods>
+      </class> <!-- com.wiprojuly.javasdet.Lab4_ShoppingCart -->
+      <class name="com.wiprojuly.javasdet.Lab3_LoginAutomation">
+        <methods>
+          <include name="validLogin"/>
+          <include name="invalidLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.wiprojuly.javasdet.Lab3_LoginAutomation -->
+      <class name="com.wiprojuly.javasdet.Lab1_FormFilling">
+        <methods>
+          <include name="fillForm"/>
+        </methods>
+      </class> <!-- com.wiprojuly.javasdet.Lab1_FormFilling -->
+      <class name="com.wiprojuly.javasdet.Lab2_BookingFlow">
+        <methods>
+          <include name="BookingFlow"/>
+        </methods>
+      </class> <!-- com.wiprojuly.javasdet.Lab2_BookingFlow -->
+    </classes>
+  </test> <!-- LabTests(failed) -->
+</suite> <!-- Failed suite [AutomationLabSuite] -->

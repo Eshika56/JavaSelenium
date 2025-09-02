@@ -1,0 +1,71 @@
+package com.wiprojuly.testng;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class TestNGAnnotations {
+
+	@BeforeTest
+	public  void beforetest() {
+		System.out.println("checking products");
+		
+
+	}
+	@AfterTest
+	public void aftertest() {
+		System.out.println("removing products");
+	}
+	@BeforeClass
+	public void beforeclass() {
+		System.out.println("opening the api onnections");
+	}
+	@AfterClass
+	public void afterclass() {
+		System.out.println("closing the api connections");
+	}
+	@BeforeSuite
+	public void beforesuite() {
+		System.out.println("opening the db onnections");
+	}
+	@AfterSuite
+	public void aftersuite4() {
+		System.out.println("closing the db connections");
+	}
+	@BeforeMethod
+	public void beforemethod() {
+		System.out.println("launch browser");
+	}
+	@AfterMethod
+	public void aftermethod() {
+		System.out.println("closing the browser");
+	}
+	@Test
+
+	public void testcase1() {
+ 
+		System.out.println("Testcase1 is executed");
+
+	}
+ 
+	@Test
+
+	public void testcase2() {
+ 
+		System.out.println("Testcase2 is executed");
+ 
+	}
+ 
+	@Test
+	public void testcase3() {
+		 
+		System.out.println("Testcase3 is executed");
+
+	}
+}
