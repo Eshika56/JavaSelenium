@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Demoblaze Suite" verbose="1">
+  <test name="Demoblaze End-to-End Tests">
+    <classes>
+      <class name="com.wiprojuly.testng.UserAccountManagement"/>
+      <class name="com.wiprojuly.testng.ProductDetailsAndCart"/>
+      <class name="com.wiprojuly.testng.CheckoutProcess"/>
+    </classes>
+  </test>
+</suite>
