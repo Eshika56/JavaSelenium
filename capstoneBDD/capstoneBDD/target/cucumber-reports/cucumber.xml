@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="38.288" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-07T17:25:55.414146500Z">
+<testcase classname="Checkout Process" name="Complete checkout with valid details" time="38.059">
+<system-out><![CDATA[
+Given I have added "Samsung galaxy s6" to my cart...........................passed
+When I proceed to cart and place order......................................passed
+And I fill order form with name "Eshika Bose", country "India", city "Kolkata", credit card "1234567890", month "12", year "2025".passed
+And I confirm purchase......................................................passed
+Then I should see a confirmation dialog with purchase details...............passed
+]]></system-out>
+</testcase>
+</testsuite>
