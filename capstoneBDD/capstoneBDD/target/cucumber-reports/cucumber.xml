@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="38.288" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-07T17:25:55.414146500Z">
-<testcase classname="Checkout Process" name="Complete checkout with valid details" time="38.059">
+<testsuite name="Cucumber" time="38.991" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-08T08:07:25.200067700Z">
+<testcase classname="Checkout Process" name="Complete checkout with valid details" time="38.698">
 <system-out><![CDATA[
 Given I have added "Samsung galaxy s6" to my cart...........................passed
 When I proceed to cart and place order......................................passed
